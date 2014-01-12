@@ -1,0 +1,12 @@
+configuracion de usuario
+git config --global user.name "nombre"
+git config --global user.email "correo@correo.xx"
+
+crear llave ssh
+ssh-keygen
+ir a github, account settings/ssh keys/add ssh key y pegar el contenido del archivo ~/.ssh/xxx.pub 
+
+iniciar repositorio
+git init
+touch README.md
+git add README.md
