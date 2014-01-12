@@ -6,7 +6,11 @@ crear llave ssh
 ssh-keygen
 ir a github, account settings/ssh keys/add ssh key y pegar el contenido del archivo ~/.ssh/xxx.pub 
 
-iniciar repositorio
+iniciar repositorio y conectar con github
 git init
 touch README.md
 git add README.md
+git remote add origin git@github.com:bmonsalves/qwertyzxcvb.git
+git pull origin master
+git push origin master
+
