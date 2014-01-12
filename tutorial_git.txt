@@ -14,3 +14,10 @@ git remote add origin git@github.com:bmonsalves/qwertyzxcvb.git
 git pull origin master
 git push origin master
 
+--cambios en la rama desarrollo
+crear ramas
+git branch <nombre_rama>
+
+cambiar de rama
+git checkout <nombre_rama>
+
