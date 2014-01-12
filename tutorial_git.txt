@@ -21,3 +21,9 @@ git branch <nombre_rama>
 cambiar de rama
 git checkout <nombre_rama>
 
+mesclar ramas 
+(te posicionas en la rama de destino y mergeas la rama a unir
+por ejemplo si quieres juntar la rama de desarrollo con el master
+haces git checkout master y luego git merge desarrollo
+)
+git merge <nombre_rama>
